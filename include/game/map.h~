@@ -1,0 +1,25 @@
+#ifndef LDR_MAP___
+#define LDR_MAP___
+
+#include "image.h"
+#include "point.h"
+#include "color3f.h"
+
+typedef struct map_s {
+	char* type_map; //ITD ou ITD
+	int number_map;
+	Img* image; //Carte image.ppm
+	Color3f path; //Couleur clé des chemins dans l'image
+	Color3f node; //Couleur clé des noeuds
+	Color3f buildable; //Couleur clé des zones 'constructibles'
+	Color3f in; //Couleur clé de la zone d'entrée
+	Color3f out; //Couleur clé de la zone de sortie
+	int nb_node; //Nombre de noeuds
+	point* node_array; //Tableau des noeuds //faire malloc nb_noeud*sizeof(point)
+} Map;
+
+int openMap (Map* map, char* filename); //Ouvrir une map
+void print_info_map (Map* map); //Afficher les informations d'une map
+
+#endif
+

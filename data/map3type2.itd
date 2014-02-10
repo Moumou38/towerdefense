@@ -1,0 +1,28 @@
+@ITD 2
+map3.ppm
+chemin 255 0 0
+noeud 0 254 255
+construct 0 255 0
+in 255 238 238
+out 17 0 0
+powerR 25
+powerL 15
+powerM 20
+powerH 19
+rateR 2
+rateL 4
+rateM 6
+rateH 8
+rangeR 70
+rangeL 50
+rangeM 70
+rangeH 90
+costR 30
+costL 35
+costM 45
+costH 50
+4
+40  428  
+312  429  
+313  96  
+636  96  

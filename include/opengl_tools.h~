@@ -1,0 +1,6 @@
+#ifndef LDR_OPENGL_TOOLS___
+#define LDR_OPENGL_TOOLS___
+
+void drawcircle(int x, int y) ;
+void dessindisque() ;
+#endif

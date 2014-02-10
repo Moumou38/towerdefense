@@ -1,0 +1,29 @@
+@ITD 2
+map4.ppm
+chemin 255 0 0
+noeud 0 254 255
+construct 0 255 0
+in 255 255 255
+out 0 0 0
+powerR 250
+powerL 100
+powerM 150
+powerH 120
+rateR 18
+rateL 4
+rateM 6
+rateH 8
+rangeR 100
+rangeL 120
+rangeM 140
+rangeH 160
+costR 200
+costL 150
+costM 150
+costH 100
+5
+269  218  
+268  72  
+696  72  
+696  237  
+443  237  

@@ -1,0 +1,13 @@
+
+typedef struct structure_image 
+	{
+	// type de variante entre 1 et 6
+	char var[2];
+	// Hauteur et largeur
+	unsigned int hauteur;
+	unsigned int largeur;
+	// Valeur maximale
+	int max;
+	// Valeur des pixels unsigned char va de 0 à 255
+	unsigned char* tabPixel; //taille à multiplier par 3 pour chaque couleur
+}Image;

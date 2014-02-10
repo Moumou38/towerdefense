@@ -1,0 +1,19 @@
+#ifndef LDR_COLOR3F___
+#define LDR_COLOR3F___
+
+typedef struct Color3f_s {
+	float r;
+	float g;
+	float b;
+} Color3f;
+
+Color3f ColorRGB (float R, float G, float B); /*Création d'une couleur RGB*/
+Color3f AddColors (Color3f C1, Color3f C2); /*Ajout de deux couleurs*/
+Color3f SubColors (Color3f C1, Color3f C2); /*Soustraction de deux couleurs*/
+Color3f MultColors (Color3f C1, Color3f C2); /*Multplication de deux couleurs*/
+Color3f DivColors (Color3f C1, Color3f C2); /*Division de deux couleurs*/
+Color3f MultColor (Color3f C1, float scalaire); /*Multplication d'une couleur par un scalaire*/
+Color3f DivColor (Color3f C1, float scalaire); /*Division d'une couleur par un scalaire*/
+unsigned char f32toByte8 (float colorFloat); /*Conversion des float en unsigned char*/
+
+#endif

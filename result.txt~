@@ -1,0 +1,152 @@
+ost in loss record 362 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x55E77EF: TTF_RenderUNICODE_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x55E7C51: TTF_RenderText_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x402F27: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 28,224 (2,464 direct, 25,760 indirect) bytes in 28 blocks are definitely lost in loss record 364 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x55E77EF: TTF_RenderUNICODE_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x55E7C51: TTF_RenderText_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x406FCC: tower_cost (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x403622: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 33,899 (30,984 direct, 2,915 indirect) bytes in 1 blocks are definitely lost in loss record 365 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x55E614C: TTF_OpenFontIndexRW (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x404089: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 34,105 (30,984 direct, 3,121 indirect) bytes in 1 blocks are definitely lost in loss record 366 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x55E614C: TTF_OpenFontIndexRW (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x40409C: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 43,848 (1,848 direct, 42,000 indirect) bytes in 21 blocks are definitely lost in loss record 368 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x55E77EF: TTF_RenderUNICODE_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x55E7C51: TTF_RenderText_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x406FB4: tower_cost (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x403622: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 67,480 (616 direct, 66,864 indirect) bytes in 7 blocks are definitely lost in loss record 371 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x55E77EF: TTF_RenderUNICODE_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x55E7C51: TTF_RenderText_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x405AEE: info_tower (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x403274: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 68,544 (616 direct, 67,928 indirect) bytes in 7 blocks are definitely lost in loss record 372 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x55E77EF: TTF_RenderUNICODE_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x55E7C51: TTF_RenderText_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x405A66: info_tower (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x403274: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 75,460 (616 direct, 74,844 indirect) bytes in 7 blocks are definitely lost in loss record 374 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x55E77EF: TTF_RenderUNICODE_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x55E7C51: TTF_RenderText_Blended (in /usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.6.3)
+==2494==    by 0x405AAA: info_tower (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x403274: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 93,216 (88 direct, 93,128 indirect) bytes in 1 blocks are definitely lost in loss record 377 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CD84D: IMG_LoadPNG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x40232A: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 93,216 (88 direct, 93,128 indirect) bytes in 1 blocks are definitely lost in loss record 378 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CD84D: IMG_LoadPNG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x40233B: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 180,216 (88 direct, 180,128 indirect) bytes in 1 blocks are definitely lost in loss record 383 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CBEA8: IMG_LoadJPG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x404015: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 180,216 (88 direct, 180,128 indirect) bytes in 1 blocks are definitely lost in loss record 384 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CBEA8: IMG_LoadJPG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x404023: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 180,216 (88 direct, 180,128 indirect) bytes in 1 blocks are definitely lost in loss record 385 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CBEA8: IMG_LoadJPG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x404031: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 180,216 (88 direct, 180,128 indirect) bytes in 1 blocks are definitely lost in loss record 386 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CBEA8: IMG_LoadJPG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x40403F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 383,704 (88 direct, 383,616 indirect) bytes in 1 blocks are definitely lost in loss record 388 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CD84D: IMG_LoadPNG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x402284: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== 893,592 (88 direct, 893,504 indirect) bytes in 1 blocks are definitely lost in loss record 390 of 390
+==2494==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2494==    by 0x4E63710: SDL_CreateRGBSurface (in /usr/lib/x86_64-linux-gnu/libSDL-1.2.so.0.11.3)
+==2494==    by 0x53CBEA8: IMG_LoadJPG_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x53C96DB: IMG_LoadTyped_RW (in /usr/lib/x86_64-linux-gnu/libSDL_image-1.2.so.0.8.2)
+==2494==    by 0x403896: game_over (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x403606: play_game (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x40435F: choice (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494==    by 0x401BD4: main (in /home/monia/IMAC/towerdefense/bin/itd)
+==2494== 
+==2494== LEAK SUMMARY:
+==2494==    definitely lost: 72,598 bytes in 133 blocks
+==2494==    indirectly lost: 2,718,744 bytes in 542 blocks
+==2494==      possibly lost: 0 bytes in 0 blocks
+==2494==    still reachable: 169,857 bytes in 579 blocks
+==2494==         suppressed: 0 bytes in 0 blocks
+==2494== Reachable blocks (those to which a pointer was found) are not shown.
+==2494== To see them, rerun with: --leak-check=full --show-reachable=yes
+==2494== 
+==2494== For counts of detected and suppressed errors, rerun with: -v
+==2494== Use --track-origins=yes to see where uninitialised values come from
+==2494== ERROR SUMMARY: 131 errors from 53 contexts (suppressed: 2 from 2)

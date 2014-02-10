@@ -1,0 +1,82 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_ttf.h>
+#include <SDL/SDL.h>
+
+
+#include "game/button.h"
+#include "sdl_tools.h"
+
+#define TAILLE_NOM 50
+
+
+void init_tab_Button(SDL_Surface** tab_sprite_button){
+
+	/* Dans l'ordre on charge :
+		- les 4 types de tours
+		- le bouton d'amélioration des tours (état 1 et 2)
+		- le bouton de suppression des tours
+		- le bouton de cheat (état 1 et 2)
+		- le bouton quitter
+	 */
+
+	tab_sprite_button[0] = IMG_Load("./images/tower/tour1.png");
+	tab_sprite_button[1] = IMG_Load("./images/tower/tour2.png");
+	tab_sprite_button[2] = IMG_Load("./images/tower/tour3.png");
+	tab_sprite_button[3] = IMG_Load("./images/tower/tour4.png");
+
+	tab_sprite_button[4] = IMG_Load("./images/button/achat.jpg");
+	tab_sprite_button[5] = IMG_Load("./images/button/achat_NULL.jpg");
+
+	tab_sprite_button[6] = IMG_Load("./images/button/destruction.jpg");
+
+	tab_sprite_button[7] = IMG_Load("./images/button/cheat.jpg");
+	tab_sprite_button[8] = IMG_Load("./images/button/cheat_NULL.jpg");
+
+	tab_sprite_button[9] = IMG_Load("./images/button/quitter.jpg");
+	
+}
+
+Button* addButton(char *nom, point coord, int width, int height){
+
+	
+
+	Button *button = malloc(sizeof(Button));
+
+	button->nom = malloc(sizeof(char)*TAILLE_NOM);
+
+	button->nom = nom;
+
+	button->coord[0].x = coord.x;
+	button->coord[0].y = coord.y;
+	button->coord[1].x = coord.x+width;
+	button->coord[1].y = coord.y;
+	button->coord[2].x = coord.x+width;
+	button->coord[2].y = coord.y+height;
+	button->coord[3].x = coord.x;
+	button->coord[3].y = coord.y+height;
+
+	return button;
+
+	
+}
+
+int isButtonSelected(Button *button, int x, int y){
+
+	int selected = 0;
+
+	if((x >= button->coord[0].x && x <= button->coord[1].x) && (y >= button->coord[0].y && y <=button->coord[2].y))
+		selected = 1;	
+
+	return selected;
+}
+
+void deleteButton(Button *button){
+
+	free(button->nom);
+	free(button);
+}
+
+

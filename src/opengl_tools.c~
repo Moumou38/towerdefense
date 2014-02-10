@@ -1,0 +1,43 @@
+#include <SDL/SDL.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <math.h>
+#include "opengl_tools.h"
+
+
+void drawcircle(int x, int y){
+int i;
+double rayon = 50 ;
+glBegin(GL_POLYGON);
+glColor3ub(255, 255, 255);
+
+
+glVertex2f (x,y); 
+
+for(i=0; i<=50;i++){
+	x = rayon*cos(i*2*3.14/50);	
+	y = rayon*sin(i*2*3.14/50);
+	glVertex2f (x,y); 
+}
+	
+    glEnd();
+}
+
+
+void dessindisque(){
+int i;
+double rayon = 50. ;
+double x, y;
+glBegin(GL_POLYGON);
+x = 100.; 
+y = 100.; 	
+glVertex2f (x,y); 
+
+for(i=0; i<=50;i++){
+	x = rayon*cos(i*2*3.14/50);	
+	y = rayon*sin(i*2*3.14/50);
+	glVertex2f (x,y); 
+}
+	
+    glEnd();
+}

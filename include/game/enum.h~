@@ -1,0 +1,7 @@
+#ifndef LDR_ENUM___
+#define LDR_ENUM___
+
+
+enum type_tower {rocket, laser, hybrid, gun};
+
+#endif
